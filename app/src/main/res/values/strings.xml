@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SchoolIdolTry4</string>
+    <string name="preference_file_key">Files</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_explanation">This is an improved version for School Idol Points Calculator. I designed it for School Idol Festival players.
+    It has various features, as a calculator which tells you how many songs you have to play in a certain event, in order to achieve your own goal.</string>
+    <string name="tokenEventConfigFile">tokenEventConfig.cfg</string>
+    <string name="matchEventConfigFile">matchEventConfig.cfg</string>
+    <string name="rankTable">11 13 16 20 26 32 39 48 57 67 79 91 105 120 135 152 170 189 208 229 251 274 298 323 349 376 405 434 464 495 528 561 596</string>
+    <string name="songExpTable">12 26 47 95</string>
+    <string name="statsLayExplain">These values are optional for you to set them. In fact they are only used during a token collection event, to calculate whether you can rank up playing only the event song.
+        This is very useful when you run out of LP and have gathered enough tokens to rank up. If so, a message like \"you can RANK UP playing the event!\"
+        will show up at your token collection event screen. When you don\'t want it to show those messages just fill these two fields with 0 and touch on \"Save Values\" button.</string>
+
+    <string-array name="mode">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+        <item>Expert</item>
+    </string-array>
+
+    <string-array name="event_type">
+        <item>Token Collecting Event</item>
+        <item>Score Match Event</item>
+    </string-array>
+</resources>
